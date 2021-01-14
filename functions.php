@@ -11,11 +11,6 @@ function capsule_child_fonts_url() {
 	$fonts     = array();
 	$subsets   = 'latin,latin-ext';
 
-//	/* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
-//	if ( 'off' !== _x( 'on', 'Open Sans font: on or off', 'capsule' ) ) {
-//		$fonts[] = 'Open Sans:400,700,900,400italic,700italic,900italic';
-//	}
-
 	/* translators: If there are characters in your language that are not supported by Montserrat, translate this to 'off'. Do not translate into your own language. */
 	if ( 'off' !== _x( 'on', 'Montserrat font: on or off', 'capsule_child' ) ) {
 		$fonts[] = 'Montserrat:400,700';
